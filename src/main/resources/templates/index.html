@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+</head>
+<body>
+    <a th:href="@{/http?id=kim_id&pass=1111&name=kim&content=hello}">http</a>
+    <a th:href="@{/web?id=kim_id&pass=1111&name=kim&content=hello}">web</a>
+    <a th:href="@{/path/kim_id/1111/name/hello}">path</a>
+    <a th:href="@{/req?id=kim_id&pass=1111&name=kim&content=hello}">req</a>
+    <a th:href="@{/mod?id=kim_id&pass=1111&name=kim&content=hello}">mod</a>
+</body>
+</html>
